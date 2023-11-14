@@ -1049,3 +1049,23 @@ video {
     display: flex;
   }
 }
+
+@media (min-aspect-ratio: 3/2) {
+  .widescreen\:section-min-height{
+    min-height: calc(100vh - 68px);
+  }
+
+  .widescreen\:color-wide{
+    color: rgba(255, 34, 0, 0.778);
+  }
+}
+
+@media (min-aspect-ratio: 1/2) {
+  .tallscreen\:section-min-height{
+    min-height: calc(100vh - 68px);
+  }
+
+  .tallscreen\:color-tall{
+    color: aqua;
+  }
+}
